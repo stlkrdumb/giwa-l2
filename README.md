@@ -20,3 +20,7 @@ Run the script
 ```
 node --import=tsx src/deposit.ts
 ```
+
+if you have any problem please visit [my telegram channel][Telegram]
+
+[Telegram]: https://t.me/airdropStalkerChannel
