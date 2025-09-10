@@ -19,6 +19,8 @@ pnpm install
 ```
 TEST_PRIVATE_KEY=<yourprivatekey>
 ```
+
+## Deposit and Withdraw ETH
 - Run the script for deposit ETH
 ```
 node --import=tsx src/deposit.ts
