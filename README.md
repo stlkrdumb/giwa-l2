@@ -3,13 +3,13 @@
 First of all you need to install `pnpm` package to use this tool.
 
 ## Prerequirements
-- Sepolia ETH on your wallet
+- Sepolia ETH in your wallet
 - Linux (Ubuntu, Debian, and etc) or Using WSL on Windows
 - PNPM ([Read here for installation](https://pnpm.io/installation))
 
 ## Installation
 ```
-git clone https://github.com/stlkrdumb/giwa-l2 && cd giwa-l2
+git clone https://github.com/stlkrdumb/giwa-l2 && cd giwas-l2
 ```
 Install dependencies
 ```
