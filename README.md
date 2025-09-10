@@ -21,6 +21,6 @@ Run the script
 node --import=tsx src/deposit.ts
 ```
 
-if you have any problem please visit [my telegram channel][Telegram]
+NOTE! makse sure your ETH Sepolia balance is enough, each time you run the script it will deposit 0.0025 Sepolia ETH to Giwa L2 Testnet.
 
-[Telegram]: https://t.me/airdropStalkerChannel
+if you have any problem please visit [my telegram channel](https://t.me/airdropStalkerChannel)
