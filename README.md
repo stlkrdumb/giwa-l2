@@ -2,6 +2,10 @@
 
 First of all you need to install `pnpm` package to use this tool.
 
+## Prerequirements
+- Linux (Ubuntu, Debian, and etc) or Using WSL on Windows
+- PNPM
+
 ## Installation
 ```
 git clone https://github.com/stlkrdumb/giwa-l2 && cd giwa-l2
