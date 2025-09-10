@@ -11,22 +11,19 @@ First of all you need to install `pnpm` package to use this tool.
 ```
 git clone https://github.com/stlkrdumb/giwa-l2 && cd giwas-l2
 ```
-Install dependencies
+- Install dependencies
 ```
 pnpm install
 ```
-
-Set environment variable called `TEST_PRIVATE_KEY` replace `<privatekey>` with your wallet private key.
+- Create file called `.env` and fill with example below, change `<yourprivatekey>` with your wallet privatekey, and then save it.
 ```
-export TEST_PRIVATE_KEY=<your privatekey>
+TEST_PRIVATE_KEY=<yourprivatekey>
 ```
-
-Run the script for deposit ETH
+- Run the script for deposit ETH
 ```
 node --import=tsx src/deposit.ts
 ```
-
-or if you want to withdraw
+- or if you want to withdraw
 ```
 node --import=tsx src/withdraw.ts
 ```
