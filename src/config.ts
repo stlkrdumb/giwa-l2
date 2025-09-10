@@ -1,3 +1,4 @@
+import * as dotenv from 'dotenv'; dotenv.config();
 import {defineChain, createPublicClient, http, createWalletClient} from "viem";
 import {privateKeyToAccount} from "viem/accounts";
 import {publicActionsL1, publicActionsL2, walletActionsL1, walletActionsL2} from "viem/op-stack";

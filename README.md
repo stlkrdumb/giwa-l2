@@ -21,10 +21,17 @@ Set environment variable called `TEST_PRIVATE_KEY` replace `<privatekey>` with y
 export TEST_PRIVATE_KEY=<your privatekey>
 ```
 
-Run the script
+Run the script for deposit ETH
 ```
 node --import=tsx src/deposit.ts
 ```
+
+or if you want to withdraw
+```
+node --import=tsx src/withdraw.ts
+```
+
+If you're running into problem when running above script, be sure to check again your private key already imported or not by doing `echo $TEST_PRIVATE_KEY` if the result blank you need to set it again.
 
 NOTE! makse sure your ETH Sepolia balance is enough, each time you run the script it will deposit 0.0025 Sepolia ETH to Giwa L2 Testnet.
 
