@@ -16,7 +16,7 @@ Install dependencies
 pnpm install
 ```
 
-Set environment variable called `TEST_PRIVATE_KEY` replace `<privatekey>` with your actual PK.
+Set environment variable called `TEST_PRIVATE_KEY` replace `<privatekey>` with your wallet private key.
 ```
 export TEST_PRIVATE_KEY=<your privatekey>
 ```
